@@ -2,14 +2,10 @@
 
 int main()
 {
-    int area;
-    int altura;
-    int base;
-    printf("Altura: ");
-    scanf_s("%i", &altura);
-    printf("Base: ");
-    scanf_s("%d", &base);
-    area = base * altura;
-    printf("El rectangulo de %i x %i tiene area de %i", base, altura, area);
+	int radio;
+    float area;
+    printf("Radio: ");
+    scanf_s("%i", &radio);
+    area = 3.1416 * (radio *radio);
+    printf("El circulo de %i de radio tiene un area de %.2f al cuadrado", radio, area);
 }
-
